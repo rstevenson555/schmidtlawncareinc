@@ -1,0 +1,4 @@
+  ExpiresActive on
+  ExpiresByType image/gif "access plus 1 day"
+  ExpiresByType image/jpeg "access plus 1 day"
+  ExpiresByType image/png "access plus 1 day"
