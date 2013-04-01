@@ -3,14 +3,16 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
     Header("HTTP/1.1 301 Moved Permanently");
     Header("Location: http://www.wheatonmulch.com");
 }
+if ($_SERVER["HTTP_HOST"] == "schmidtlawncareinc.com") {
+    Header("HTTP/1.1 301 Moved Permanently");
+    Header("Location: http://www.schmidtlawncareinc.com");
+}
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
 <html>
     <head>
         <title>Schmidt Lawncare Inc.</title>
-                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
         <meta name="google-site-verification" content="tL19fXc1YJS9fEOEtPki0EdDaX_bitYY-nP79lHKCBQ" />
         <meta name="google-site-verification" content="tL19fXc1YJS9fEOEtPki0EdDaX_bitYY-nP79lHKCBQ" />
         <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
@@ -59,10 +61,14 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
         </script>
         <div id="page_wrapper">
 
-            <div class="main" style="background-image:url('/images/winter_bkg.jpg')!important;width:960!important;" >
+            <div class="main" style="background-image:url('/images/1abee7a61d_x960x800.jpg')!important;width:960!important;" >
                 <style  TYPE="text/css">
                     .user-area ul a {
                         color:wheat!important;
+                    }
+                    .galleryview {
+                        /* add a black border around the slideshow */
+                        border:1px solid white!important;
                     }
                     #slideshow_id {
                         /*margin-right:15px!important; */
@@ -74,9 +80,10 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
                     }
 
                     .img-shadow img {
+                        width:407!important;
                         display: block; /* IE won't do well without this */
                         position: relative; /* Make the shadow's position relative to its image */
-                        padding: 5px; /* This creates a border around the image */
+                        /*padding: 5px; */ /* This creates a border around the image */
                         background-color: #fff; /* Background color of the border created by the padding */
                         border: 1px solid #cecece; /* A 1 pixel greyish border is applied to the white border created by the padding */
                         margin: -6px 6px 6px -6px; /* Offset the image by certain pixels to reveal the shadow, as the shadows are 6 pixels wide, offset it by that amount to get a perfect shadow */
@@ -95,16 +102,15 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
                         color:wheat!important;
                     }
                     .user-area ul {
-                        /*background-image: url( '/images/black35pct.png')!important;*/
                         background-image: none!important;
                         background-color: rgba(0,0,0,.35)!important;
                         border-radius: 0 0 20px 20px;
                     }
                     .leftmenu {
-                        /*background-image: url('/images/black35pct.png')!important;*/
                         background-image:none!important;
                         background-color: rgba(0,0,0,.35)!important;
                         border-radius: 20px 20px 20px 20px;
+                        border: 0px dotted!important;
                     }
                     .hometext a {
                         color: white!important;
@@ -112,23 +118,16 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
                     .hometext {
                         color: wheat!important;
                         padding-left: 15px;
-                        /*background-image: url('/images/black35pct.png')!important;*/
                         background-image:none!important;
                         background-color:rgba(0,0,0,.35)!important;
                         border-radius: 20px 20px 20px 20px;
                     }
                     .hometext_continued {
                         color: wheat!important;
-                        /*background-image: url('/images/black35pct.png')!important;*/
                         background-image:none!important;
                         background-color:rgba(0,0,0,0.35)!important;
                         border-radius: 20px 20px 20px 20px;
-                        padding-left: 15px;
-                    }
-                    .address {
-                        background-image:none!important;
-                        background-color:rgba(0,0,0,0.50)!important;
-
+                        padding-left: 15px;							
                     }
                     .hometext_continued a {
                         color: white!important;
@@ -140,9 +139,9 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
                         color:white!important;
                     }
                     .logo img {
-                        background: none repeat scroll 0 0 rgba(119, 119, 119, 0.9);
-                        border-radius: 20 20 20 20;
-                        padding-left: 10px;
+                        /*background: none repeat scroll 0 0 #C18000;*/
+                        /*background: none repeat scroll 0 0 #097B22;*/
+                        /*background: none repeat scroll 0 0 #4b7624;*/
                     }
 
                 </style>
@@ -159,7 +158,7 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
 
                 <div >
                     <div class="truck" style="float:right!important;border:0;margin-right:15px;width:320px!important;">
-                        <span class="img-shadow"><img style="border: 0" src="/images/slc_trucktrailer.jpg"/></span>
+                        <span class="img-shadow"><img style="" src="/images/slc_trucktrailer.jpg"/></span>
                     </div>
                     <div class="hometext_continued" style="float:left!important;margin-left:15px;width:368px!important;color:black;background-image: url(/images/green70pct.png);">
                         Our Professional staff is committed to an honest approach, reliable
