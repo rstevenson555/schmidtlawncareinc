@@ -31,8 +31,8 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
                     <form method="post" onsubmit="javascript:submitForm();" action="http://www.schmidtlawncareinc.com/submitchecklist.php" enctype="multipart/form-data" name="requestinfo">
                         <table class="requestBorder requestTablePosition" width="710" border="0">
                             <tr>
-                                <td class="requestInfoHead" style="font-size:13pt;text-align:center;" colspan="4">2012 Service Checklist<br/>
-									CONTACT INFORMATION<br/>
+                                <td class="requestInfoHead" style="font-size:13pt;text-align:center;" colspan="4">2013 Service Checklist<br/>
+                                    CONTACT INFORMATION<br/>
                                     <span style="font-style:italic;font-size:75%;color:lime;">(Submitting this form will automatically add you to our service schedule.)</span></td>
                             </tr>
                             <tr>
@@ -62,7 +62,7 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
                             <tr>
                                 <td colspan="4">
                                     <hr/>
-								     Please check the following services you wish to receive for the 2012 season:<br/>
+                                    Please check the following services you wish to receive for the 2013 season:<br/>
                                 </td>
                             </tr>
                             <tr>
@@ -91,7 +91,7 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
                                     <input class="inputAvg" type="checkbox" tabindex="6" name="selective_bagging"/>Selective bagging $5 per can removed. Contact me with your bagging needs.
                                 </td>
                             </tr>
-                            
+
                             <tr>
                                 <td colspan="2">
                                     <input class="inputAvg" type="checkbox" tabindex="6" name="springclean"/>Spring clean up   (Begins late March)
@@ -107,7 +107,7 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
                                     <input class="inputAvg" type="checkbox" tabindex="6" name="coreaerationspring"/>Core aeration (April - May)
                                 </td>
                                 <td colspan="2">
-									Sprinkler <input class="inputAvg" type="radio" tabindex="6" name="coreaerationspringsprinkler" value="Yes"/>Yes
+                                    Sprinkler <input class="inputAvg" type="radio" tabindex="6" name="coreaerationspringsprinkler" value="Yes"/>Yes
                                     <input class="inputAvg" type="radio" tabindex="6" name="coreaerationspringsprinkler" value="No"/>No
                                 </td>
                             </tr>
@@ -116,7 +116,7 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
                                     <input class="inputAvg" type="checkbox" tabindex="6" name="coreaerationfall"/>Core aeration (October)
                                 </td>
                                 <td colspan="2">
-									Sprinkler <input class="inputAvg" type="radio" tabindex="6" name="coreaerationfallsprinkler" value="Yes"/>Yes
+                                    Sprinkler <input class="inputAvg" type="radio" tabindex="6" name="coreaerationfallsprinkler" value="Yes"/>Yes
                                     <input class="inputAvg" type="radio" tabindex="6" name="coreaerationfallsprinkler" value="No"/>No
                                 </td>
                             </tr>
@@ -125,7 +125,7 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
                                     <input class="inputAvg" type="checkbox" tabindex="6" name="dethatch"/>Dethatch (Power Rake)
                                 </td>
                                 <td colspan="2">
-									Sprinkler <input class="inputAvg" type="radio" tabindex="6" name="dethatchsprinkler" value="Yes"/>Yes
+                                    Sprinkler <input class="inputAvg" type="radio" tabindex="6" name="dethatchsprinkler" value="Yes"/>Yes
                                     <input class="inputAvg" type="radio" tabindex="6" name="dethatchsprinkler" value="No"/>No
                                 </td>
                             </tr>-->
@@ -169,7 +169,7 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
                                 <td><span class="red"></span>Other 1</td>
 
                                 <td colspan="2">
-									<input class="inputAvg" type="input" maxlength="50" size="40" tabindex="6" name="other1"/>
+                                    <input class="inputAvg" type="input" maxlength="50" size="40" tabindex="6" name="other1"/>
                                 </td>
                             </tr>
                             <tr>
@@ -196,20 +196,21 @@ if ($_SERVER["HTTP_HOST"] == "www.wheatonmulch.org" || $_SERVER["HTTP_HOST"] == 
                 </div>
 
                 <div class="address" >
-					709 Childs Street • Wheaton, IL 60187 • Phone 630.653.1331 • Fax 630.653.1661
+                    709 Childs Street • Wheaton, IL 60187 • Phone 630.653.1331 • Fax 630.653.1661
                 </div>
 
             </div>
         </div>
         <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+                        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+                        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
         </script>
         <script type="text/javascript">
             try {
                 var pageTracker = _gat._getTracker("UA-13038180-2");
                 pageTracker._trackPageview();
-            } catch(err) {}</script>
+            } catch (err) {
+            }</script>
     </body>
 </html>
 
