@@ -40,8 +40,8 @@ if ($_SERVER["HTTP_HOST"]=="www.wheatonmulch.org" || $_SERVER["HTTP_HOST"]=="whe
 					<h1>FAQ's:</h1>
 
 					<div class="question">What is the average cost to plow a driveway?</div>
-					<div class="answer">Most residential driveways are $30 per visit. Front public sidewalks are typically $10 (corner house, or larger lots will cost more).  Sidewalks  
-          From driveway to front door are typically only $5-$10. ($30 minimum charge per visit / 1-4" snow fall) </div>
+					<div class="answer">Most residential driveways are $40 per visit. Front public sidewalks are typically $10 (corner house, or larger lots will cost more).  Sidewalks  
+          From driveway to front door are typically only $10. ($40 minimum charge per visit / 1-4" snow fall) </div>
 
 					<div class="question">Can you shovel or snow blow my driveway instead of using a snow plow?</div>
 					<div class="answer">We do offer shoveling/snow blowing of driveways. The cost is typically 50% higher.</div>
@@ -77,13 +77,16 @@ if ($_SERVER["HTTP_HOST"]=="www.wheatonmulch.org" || $_SERVER["HTTP_HOST"]=="whe
                     <div class="question">Can you apply salt to my driveway and/or sidewalks?</div>
 					<div class="answer">Yes we carry Calcium Chloride on all of our plow trucks. Calcium Chloride is the best de-icing product 
           we have found to help avoid damage to lawns,shrubs,driveways, sidewalks, and buildings. The minimum  
-          charge is $45 and typically covers driveway and all sidewalks. (residential properties only)</div>
+          charge is $45 and typically covers driveway and all sidewalks. ($45 charge is based on us being on site doing snow removal)</div>
+                    
+                    <div class="question">Can you de-ice my property without plowing?</div>
+					<div class="answer">The minimum charge for applying Calcium Chloride without snow plowing or shoveling is $75</div>
                     
                     <div class="question">"How do I make payments?</div>
 					<div class="answer">You will be invoiced bi-weekly for the services performed at your property.  Payments are due upon receipt of invoice.</div>
                     
                     <div class="question">How can I get in touch with you if I have a snow related question or request?</div>
-					<div class="answer">I can be reached by phone, email or text. My cell number is 630.878.8447 email is Al@myslcinc.com</div>
+					<div class="answer">I can be reached by phone, email or text. My cell number is 630.878.8447 email is AL@SCHMIDTLAWNCAREINC.COM</div>
 
 				</div>
 
